@@ -36,4 +36,6 @@ Image 2: Original model scheme
     
 5.  Multi-patch STN – in this method we attempt to incorporate STN models at different layers, which we refer to as patch- STN, connecting them with convolution. Each layer receives several patches it needs to process as an input. This method has gone through several different iterations and is explained thoroughly in the paper.
 
-The best variant results:
+The best variant results when the mask:
+**![results](https://lh6.googleusercontent.com/11YuEVLHkpRrV--VRBgPk0DtgfrBSvYKn31Lte8VOsqvX83K5IY6h0dyWJQuEJogdt3SAVvLI5q_VTfn93crRUUrM9IqCWhVzELnJcCwSFGOfc1RS0DPwjjKj5wueyd1alMaPqg)**
+The left image shows the masks before applying the stn, the right is after applying the stn. It can be seen that the glasses have done transformations.
